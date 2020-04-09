@@ -1,0 +1,115 @@
+table th {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  
+}
+table {
+    font-family:cursive;
+}
+
+
+input[type="submit"] {
+    background-color: blanchedalmond;
+    font-size: 22px;
+}
+
+td input[type="checkbox"] {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.responstable {
+    margin: 1em 0;
+    width: 100%;
+    overflow: hidden;
+    background: #FFF;
+    color: #024457;
+    border-radius: 10px;
+    border: 1px solid #167F92;
+}
+
+.responstable tr {
+    border: 1px solid #D9E4E6;
+}
+
+.responstable tr:nth-child(odd) {
+    background-color: #EAF3F3;
+}
+
+h1 {
+    font-family: Verdana;
+    font-weight: normal;
+    color: #024457;
+}
+
+h1 span {
+    color: #167F92;
+}
+
+table td tr {
+    width: 100%;
+}
+
+th {
+    border: 1px solid #FFF;
+    background-color: #167F92;
+    color: #FFF;
+    padding: 1em;
+}
+
+.responstable tr {
+    border: 1px solid #D9E4E6;
+}
+
+.responstable th,
+.responstable td {
+    display: table-cell;
+    padding: 1em;
+}
+
+.responstable th,
+.responstable td {
+    text-align: left;
+    margin: .5em 1em;
+}
+
+td {
+    display: table-cell;
+    text-align: center;
+    border-right: 1px solid #D9E4E6;
+    display: block;
+    word-wrap: break-word;
+    max-width: 7em;
+}
+
+tr:hover {
+    /* background-color: yellow; */
+    color: black;
+    font-weight: bold;
+    /* font-size: 22px; */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #024457;
+    background: #f2f2f2;
+}
+
+h1 {
+    font-family: Verdana;
+    font-weight: normal;
+    color: #024457;
+}
+
+h1 span {
+    color: #167F92;
+}
+
+
+
+
+
+
+/* ////////////////////////////         */
+/* -------------------- Page Styles (not required) */
+

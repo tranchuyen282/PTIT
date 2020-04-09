@@ -1,0 +1,10 @@
+tạo database tên: dangkyhoc và import dữ liệu bằng file dangkyhoc.sql
+truy cập vào http://localhost/dangkyhoc/login.php
+đăng nhập,
+username: manhthuong
+password: 12345
+hoặc tạo tk mới.
+truy cập quyền admin, để thêm sửa xóa dữ liệu
+username: admin
+password: admin.
+sharecode.vn
