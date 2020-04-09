@@ -31,7 +31,7 @@ public class TopicProducer implements Runnable {
 
             // Let's create a topic. If the topic exist,
             // it will return that
-            Destination destination = session.createTopic("Computer Lab-IX");
+            Destination destination = session.createTopic("CFC282");
 
             // Create a MessageProducer from
             // the Session to the Topic or Queue
@@ -39,7 +39,7 @@ public class TopicProducer implements Runnable {
             producer.setDeliveryMode(DeliveryMode.PERSISTENT);
 
             // Create a messages for the current topic
-            String text = "Complete JMS Expt";
+            String text = "JMS - Publish/Subscribe";
             TextMessage message = session.createTextMessage(text);
 
             // Send the message to topic

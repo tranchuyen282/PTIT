@@ -30,7 +30,7 @@ public class TopicConsumer implements Runnable {
 
             // Let's create a topic. If the topic exist,
             // it will return that
-            Destination topicDestination = session.createTopic("Computer Lab-IX");
+            Destination topicDestination = session.createTopic("CFC282");
 
             // Create a MessageProducer from the Session
             // to the Topic or Queue
@@ -41,7 +41,7 @@ public class TopicConsumer implements Runnable {
 
             TextMessage textMessage = (TextMessage) message;
 
-            System.out.println(textMessage.getText());
+            System.out.println("Received message '"+ textMessage.getText() + "'");
 
             // Do the cleanup
             session.close();
